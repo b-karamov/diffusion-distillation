@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion-distill-course"
+version = "0.1.0"
+description = "Reproducible CIFAR-10 progressive diffusion distillation coursework"
+requires-python = ">=3.10"
+dependencies = ["torch==2.12.0", "torchvision==0.27.0", "diffusers==0.35.2", "huggingface-hub==0.36.0", "safetensors==0.6.2", "accelerate==1.11.0", "numpy==2.5.4", "Pillow==13.0.0", "matplotlib==3.10.9", "clean-fid==0.1.35", "scipy==1.17.1"]
+
+[project.optional-dependencies]
+notebook = ["ipykernel==6.30.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

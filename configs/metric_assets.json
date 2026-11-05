@@ -1,0 +1,15 @@
+{
+  "inception": {
+    "file": "inception-2015-12-05.pt",
+    "bytes": 95607719,
+    "sha256": "f58cb9b6ec323ed63459aa4fb441fe750cfe39fafad6da5cb504a16f19e958f4",
+    "source": "https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metrics/inception-2015-12-05.pt"
+  },
+  "reference": {
+    "file": "cifar10_clean_train_32.npz",
+    "bytes": 32147086,
+    "sha256": "a7b9763a8316c2b03997d92ee9c3900588b563326521fba05373f16e179b0fb9",
+    "source": "https://www.cs.cmu.edu/~clean-fid/stats/cifar10_clean_train_32.npz",
+    "split": "CIFAR-10 train, 50000 images, Clean-FID clean"
+  }
+}

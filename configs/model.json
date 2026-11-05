@@ -1,0 +1,7 @@
+{
+  "model_id": "google/ddpm-cifar10-32",
+  "revision": "267b167dc01f0e4e61923ea244e8b988f84deb80",
+  "weights_file": "diffusion_pytorch_model.safetensors",
+  "declared_model_license": "apache-2.0",
+  "source": "https://huggingface.co/google/ddpm-cifar10-32"
+}

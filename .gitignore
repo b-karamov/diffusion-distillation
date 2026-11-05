@@ -1,0 +1,23 @@
+# В Git — только исходники решения и материалы сдачи.
+*
+!*/
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/src/diffusion_distill/*.py
+!/configs/model.json
+!/configs/dataset.json
+!/configs/metric_assets.json
+!/stage1.ipynb
+!/results/metrics.csv
+!/results/metrics.json
+!/results/samples.png
+
+# PDF хранятся локально.
+*.pdf
+
+# Локальные данные, окружение и веса.
+/.venv/
+/.cache/
+/data/
+/artifacts/

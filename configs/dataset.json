@@ -1,0 +1,7 @@
+{
+  "source": "https://www.cs.toronto.edu/~kriz/cifar.html",
+  "mirror_repo": "MIT-OL-AI-D/cifar-10-python",
+  "mirror_revision": "a48007227f9e2cd0af96175f4afb5ac4965e261b",
+  "archive_md5": "c58f30108f718f92721af3b95e74349a",
+  "archive_bytes": 170498071
+}
